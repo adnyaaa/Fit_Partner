@@ -1,0 +1,143 @@
+<resources>
+    //Login dan regis
+    <string name="app_name">UIApp</string>
+    <string name="login">Login</string>
+    <string name="regis">Registrasi Akun</string>
+    <string name="username">Username</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="daftar">Belum punya akun? Daftar</string>
+    <string name="masuk">Sudah punya akun? Login</string>
+    <string name="masukbtn">Masuk</string>
+    <string name="daftarbtn">Daftar</string>
+    <string name="ftr">Filter</string>
+
+    //Regis kelas personal trainer
+    <string name="ptc_header">Registrasi Kelas Personal Trainer</string>
+    <string name="ptc_info">Informasi Trainer</string>
+    <string name="specialty">Bidang Olahraga</string>
+    <string name="specialty_ex">Pilates</string>
+    <string name="experience">Pengalaman Trainer</string>
+    <string name="experience_ex">10 tahun kelas berenang. . .</string>
+    <string name="certification">Bukti Sertifikasi Trainer</string>
+    <string name="certification_ex">Upload foto format .jpg/.png</string>
+    <string name="ptc_detail">Informasi Kelas</string>
+    <string name="title">Judul Kelas</string>
+    <string name="title_ex">Kelas Pilates</string>
+    <string name="description">Deskripsi Kelas</string>
+    <string name="description_ex">Kelas pelatihan pilates. . .</string>
+    <string name="image">Foto Kelas</string>
+    <string name="image_ex">Upload foto format .jpg/.png</string>
+    <string name="level">Level</string>
+    <string name="level_ex">Mudah</string>
+    <string name="start_time">Periode Mulai</string>
+    <string name="start_time_ex">1 Juni 2023</string>
+    <string name="end_time">Periode Berakhir</string>
+    <string name="end_time_ex">30 Juni 2023</string>
+    <string name="jadwal">Jadwal Kelas</string>
+    <string name="jadwal_ex">Senin dan Kamis</string>
+    <string name="jam">Jam Kelas</string>
+    <string name="jam_ex">16.00—17.00</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="lokasi_ex">Lokasi gym atau link google meet</string>
+    <string name="harga">Harga (IDR)</string>
+    <string name="harga_ex">600000</string>
+    <string name="rekening">Nomor Rekening dan Bank Tujuan</string>
+    <string name="rekening_ex">01983923832 BNI an. Zuha</string>
+
+    //Detail Kelas
+    //ambil string Kelas Pilates
+    <string name="description_cls">Pilates merupakan olahraga yang terdiri atas berbagai gerakan yang berfokus pada perut, pinggang, panggul, dan paha. Namun untuk melakukannya, sebaiknya dibantu oleh instruktur. Anda bisa mengikuti kelas Pilates bersama Zuha  untuk mulai perjalanan olahraga Pilatesmu!</string>
+    <string name="info_cls">Informasi Kelas</string>
+    //ambil string Jadwal
+    //Jam
+    //Lokasi
+    //Periode
+    //Level
+    //Harga
+    <string name="info_pt">Tentang Trainer</string>
+    //ambil string Zuha
+    <string name="description_pt">Zuha adalah seorang personal trainer sejak tahun 2019. Ia telah aktif menjalani aktivitas fisik sejak berusia dini dan akhirnya mengikuti sertifikasi personal trainer ketika menginjak umur 20.</string>
+    //ambil string Bidang Olahraga
+    //Pilates
+
+    //Daftar Kelas User
+    <string name="daftar_cls">Daftar Kelas</string>
+    //ambil string Kelas Pilates
+    <string name="jadwal_cls">  Senin dan Kamis</string>
+    <string name="jam_cls">  17.00—18.00</string>
+    <string name="lokasi_cls">  Smile Gym Sanur</string>
+    <string name="periode_cls">Periode Kelas</string>
+    <string name="periode_ex">Juni—Juli 2023</string>
+    //ambil string Level
+    <string name="harga_cls">Harga 1 periode (IDR)</string>
+    <string name="total_cls">Total</string>
+    <string name="rekening_pt">Rekening Pembayaran</string>
+    <string name="bayar_cls">Lanjutkan Pembayaran</string>
+    //Rekening
+
+    //Bayar Kelas
+    <string name="konfirm_cls">Konfirmasi Pembayaran</string>
+    <string name="konfirm_desc">Selangkah lagi untuk menyelesaikan pendaftaran! Silahkan masukkan data pembayaran sebagai bukti pembayaran.</string>
+    <string name="bank">Nama Bank</string>
+    <string name="bank_ex">BNI</string>
+    <string name="rekening_cls">Nomor Rekening</string>
+    <string name="rek_ex">0234347578</string>
+    <string name="name">Nama Pemilik Rekening</string>
+    <string name="name_ex">Jackie Kennedy</string>
+    <string name="nominal_cls">Nominal Transfer</string>
+    <string name="konfirm_btn">Konfirmasi Pembayaran</string>
+
+    //Profil
+    <string name="wel">Selamat Datang !</string>
+    <string name="usn">username</string>
+    <string name="role">role</string>
+    <string name="editbtn">Edit Profil</string>
+    <string name="kelas_pt">Daftar Kelasmu</string>
+    <string name="pendaftar">Pendaftar Kelasmu</string>
+    <string name="kelas">Kelas Terdaftar</string>
+    <string name="teks">Mulai perjalananmu sebagai trainer dengan mendaftarkan kelasmu!</string>
+    <string name="ptbtn">Daftar Kelas Personal Trainer</string>
+
+    //Menu
+    <string name="menu">Rekomendasi Menu Sehat</string>
+    <string name="desc">Telusuri menu sehat FitPartner untuk melengkapi fitness journey-mu !</string>
+    <string name="src">Cari rekomendasi menu sehat</string>
+    <string name="oat">Banana Bread Oatmeal</string>
+    <string name="oatdesc">Resep ini cocok untuk kamu yang tidak sempat memanggang, rasanya persis dengan banana cake asli!</string>
+    <string name="saj1">6 sajian</string>
+    <string name="wak1">10 menit waktu memasak</string>
+    <string name="avo">Toast Alpukat</string>
+    <string name="avodesc">Toast alpukat sehat ini sangat mudah dibuat dan sangat cocok menjadi sampingan makan pagi!</string>
+    <string name="saj2">2 sajian</string>
+    <string name="wak2">3 menit waktu memasak</string>
+
+    //Kelas
+    <string name="kls">Pilih Personal Trainer</string>
+    <string name="desck">Mulai perjalanan fitnessmu dari sini. Temui kelas personal trainer yang sesuai dengan kamu !</string>
+    <string name="srch">Cari kelas personal trainer</string>
+    <string name="nkh">Mobilitas Otot</string>
+    <string name="nkhdesc">Sesi pelatihan mobilitas otot bersama salah satu personal trainer terandal, Kazuha</string>
+    <string name="day1">Selasa, Jumat</string>
+    <string name="tim1">1 jam 10 menit</string>
+
+    //Menu Oat
+    <string name="bahan">Bahan-bahan</string>
+    <string name="bhn">
+        2 cangkir quick oats
+        3 cangkir susu bebas lemak
+        3 sendok makan gula merah
+        3/4 sendok teh kayu manis bubuk
+        1/4 sendok teh garam (opsional)
+        1/4 sendok teh pala bubuk
+        1 cangkir pisang matang tumbuk
+
+        Opsi topping :
+        Yogurt tanpa lemak, irisan pisang dan stroberi, pecan cincang
+    </string>
+    <string name="langkah">Langkah-langkah</string>
+    <string name="lkh">Dalam panci sedang, didihkan susu, gula, garam, dan rempah-rempah kemudian aduk oat hingga kembali mendidih; kurangi panas menjadi sedang. Masak oats selama 1 menit atau hingga sebagian besar cairan terserap, aduk sesekali. Angkat oatmeal dari api. Aduk pisang tumbuk dan pecan. Sendok oatmeal ke dalam enam mangkuk sereal. Taburi dengan yogurt, irisan pisang, stroberi dan pecan, jika diinginkan.</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="detailkon">Konfirmasi</string>
+</resources>

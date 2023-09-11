@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Menu Sehat" />
+    <item
+        android:id="@+id/navigation_daftarkelas"
+        android:icon="@drawable/ic_kelas"
+        android:title="Daftar Kelas" />
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/ic_profil"
+        android:title="Profil" />
+</menu>

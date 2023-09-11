@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:id="@+id/lst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ftr">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title_id"
+            android:text="Lihat Grup Kelasmu!"
+            android:fontFamily="@font/montserratmedium"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="90dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status_id"
+            android:layout_below="@+id/title_id"
+            android:text="https://chat.whatsapp.com/L9wKqicwoPoGEkYkZoiW8K"
+            android:fontFamily="@font/montserratlight"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statuspembayaran_id"
+            android:layout_below="@+id/title_id"
+            android:text="https://chat.whatsapp.com/L9wKqicwoPoGEkYkZoiW8K"
+            android:fontFamily="@font/montserratlight"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

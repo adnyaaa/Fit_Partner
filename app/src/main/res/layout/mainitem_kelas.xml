@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:id="@+id/lst1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ftr">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/img1"
+        android:src="@drawable/nkh"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_id"
+        android:text="@string/nkh"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="90dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jadwal_id"
+        android:layout_below="@+id/title_id"
+        android:text="@string/day1"
+        android:fontFamily="@font/montserratlight"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:drawableLeft="@drawable/baseline_date_range_24"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jam_id"
+        android:layout_below="@+id/jadwal_id"
+        android:text="@string/tim1"
+        android:fontFamily="@font/montserratlight"
+        android:textColor="@color/black"
+        android:textSize="11sp"
+        android:drawableLeft="@drawable/baseline_timer_24"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dtr"
+        android:layout_below="@+id/jam_id"
+        android:text="@string/daftarbtn"
+        android:fontFamily="@font/montserratmedium"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:backgroundTint="@color/kelas"
+        android:layout_marginLeft="275dp"
+        />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

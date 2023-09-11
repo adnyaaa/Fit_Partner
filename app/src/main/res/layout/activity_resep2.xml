@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResepActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="50dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kelas"
+                android:background="@drawable/menue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/kls"
+                android:layout_below="@+id/kelas"
+                android:text="@string/oat"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="100dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/klsp"
+                android:layout_below="@+id/kls"
+                android:src="@drawable/reg1"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc"
+                android:layout_below="@+id/klsp"
+                android:text="@string/oatdesc"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgc"
+                android:layout_below="@+id/desc"
+                android:src="@drawable/oatf"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="35dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bahan"
+                android:layout_below="@+id/imgc"
+                android:text="@string/bahan"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bhn"
+                android:layout_below="@+id/bahan"
+                android:text="@string/bhn"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/langkah"
+                android:layout_below="@+id/bhn"
+                android:text="@string/langkah"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lkh"
+                android:layout_below="@+id/langkah"
+                android:text="@string/lkh"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="70dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/reg2"
+                android:layout_below="@+id/lkh"
+                android:src="@drawable/reg1"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

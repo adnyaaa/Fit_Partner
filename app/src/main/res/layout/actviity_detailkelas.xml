@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailKelas">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/judul_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="@string/title_ex"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/image_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/judul_id"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/zuha" />
+
+            <TextView
+                android:id="@+id/description_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_below="@+id/image_id"
+                android:text="@string/description_cls"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:id="@+id/vector_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/description_id"
+                android:src="@drawable/vector12"/>
+
+            <TextView
+                android:id="@+id/detail_class_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/vector_id"
+                android:text="@string/info_cls"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="27sp"/>
+
+            <TextView
+                android:id="@+id/jadwal_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/detail_class_id"
+                android:text="@string/jadwal_cls"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:drawableStartCompat="@drawable/baseline_date_range_24" />
+
+            <TextView
+                android:id="@+id/jam_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/jadwal_id"
+                android:text="@string/jam_cls"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:drawableStartCompat="@drawable/baseline_timer_24"/>
+
+            <TextView
+                android:id="@+id/lokasi_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/jam_id"
+                android:text="@string/lokasi_cls"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:drawableStartCompat="@drawable/baseline_location_on_25" />
+
+            <TextView
+                android:id="@+id/periode_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/lokasi_id"
+                android:text="@string/periode_cls"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/starttime_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/periode_id"
+                android:text="@string/periode_ex"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level_cls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/starttime_id"
+                android:text="@string/level"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/level_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/level_cls"
+                android:text="@string/level_ex"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/harga_cls"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/level_id"
+                android:text="@string/harga_cls"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/harga_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/harga_cls"
+                android:text="@string/harga_ex"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/vector_id2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/harga_id"
+                android:src="@drawable/vector12"/>
+
+            <TextView
+                android:id="@+id/info_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/vector_id2"
+                android:text="@string/info_pt"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="27sp"/>
+
+            <TextView
+                android:id="@+id/description_pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_below="@+id/info_pt"
+                android:text="@string/description_pt"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/specialty_pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_below="@+id/description_pt"
+                android:text="@string/specialty"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/specialty_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/specialty_pt"
+                android:text="@string/specialty_ex"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/user_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/specialty_pt"
+                android:text="@string/specialty_ex"
+                android:fontFamily="@font/montserratregular"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/bayar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="50dp"
+                android:layout_below="@+id/user_id"
+                android:text="@string/daftarbtn"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:backgroundTint="@color/kelas"/>
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

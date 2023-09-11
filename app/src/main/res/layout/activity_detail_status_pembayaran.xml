@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailStatusPembayaran">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/judul_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="Konfirmasi Pembayaran"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+
+        <ImageView
+            android:id="@+id/vector_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/judul_id"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/vector12" />
+
+        <TextView
+            android:id="@+id/detail_class_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vector_id"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/montserratsemibold"
+            android:text="Informasi Pembayaran"
+            android:textColor="@color/black"
+            android:textSize="27sp" />
+
+        <TextView
+            android:id="@+id/bank_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/detail_class_id"
+            android:text="@string/bank"
+            android:fontFamily="@font/montserratregular"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nama_bank_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_below="@+id/bank_id"
+            android:text="@string/bank"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/montserratmedium"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/norek_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/nama_bank_id"
+            android:text="@string/rekening_cls"
+            android:fontFamily="@font/montserratregular"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rekening_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/norek_id"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:fontFamily="@font/montserratmedium"
+            android:text="@string/rek_ex"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/nama_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/rekening_id"
+            android:text="@string/name"
+            android:fontFamily="@font/montserratregular"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/name_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/name_ex"
+            android:layout_below="@+id/nama_id"
+            android:fontFamily="@font/montserratmedium"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/total_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/name_id"
+            android:text="@string/nominal_cls"
+            android:fontFamily="@font/montserratregular"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/nominal_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/harga_ex"
+            android:layout_below="@+id/total_id"
+            android:fontFamily="@font/montserratmedium"
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/vector_id2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nominal_id"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/vector12" />
+
+        <Button
+            android:id="@+id/tolak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vector_id2"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="205dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#808080"
+            android:fontFamily="@font/montserratmedium"
+            android:text="tolak"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vector_id2"
+            android:layout_marginStart="205dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="50dp"
+            android:backgroundTint="@color/kelas"
+            android:fontFamily="@font/montserratmedium"
+            android:text="konfirmasi"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

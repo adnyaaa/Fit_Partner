@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--navigation-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginBottom="50dp"
+        tools:context=".MainActivity4">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/profil"
+                android:background="@drawable/frame2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/menu"
+                android:layout_below="@+id/profil"
+                android:text="@string/menu"
+                android:fontFamily="@font/montserratsemibold"
+                android:textColor="@color/black"
+                android:textSize="35sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/desc"
+                android:layout_below="@+id/menu"
+                android:text="@string/desc"
+                android:fontFamily="@font/montserratlight"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="90dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/src"
+                android:layout_below="@+id/desc"
+                android:hint="@string/src"
+                android:fontFamily="@font/montserratlight"
+                android:textColorHint="@color/menu_src"
+                android:textSize="13sp"
+                android:background="@drawable/outline_edittext"
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="35dp"
+                android:padding="12dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ftr"
+                android:layout_below="@+id/src"
+                android:text="@string/ftr"
+                android:fontFamily="@font/montserratmedium"
+                android:textColor="@color/menu"
+                android:textSize="16sp"
+                android:background="@drawable/btn_outline"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="50dp"
+                android:padding="8dp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/lst1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ftr">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/oat"
+                    android:src="@drawable/oat1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tle1"
+                    android:text="@string/oat"
+                    android:fontFamily="@font/montserratmedium"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tle2"
+                    android:layout_below="@+id/tle1"
+                    android:text="@string/oatdesc"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sj1"
+                    android:layout_below="@+id/tle2"
+                    android:text="@string/saj1"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="7dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sj2"
+                    android:layout_below="@+id/tle2"
+                    android:layout_toRightOf="@+id/sj1"
+                    android:text="@string/wak1"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="30dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/lst2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lst1">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/avo"
+                    android:src="@drawable/avo1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlei1"
+                    android:text="@string/avo"
+                    android:fontFamily="@font/montserratmedium"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="90dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tlei2"
+                    android:layout_below="@+id/tlei1"
+                    android:text="@string/avodesc"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sji1"
+                    android:layout_below="@+id/tlei2"
+                    android:text="@string/saj2"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginTop="7dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sji2"
+                    android:layout_below="@+id/tlei2"
+                    android:layout_toRightOf="@+id/sji1"
+                    android:text="@string/wak2"
+                    android:fontFamily="@font/montserratlight"
+                    android:textColor="@color/black"
+                    android:textSize="11sp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="30dp"
+                    android:gravity="center"/>
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/textViewHar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lst2"
+                android:textSize="30sp"
+                android:text="@string/kelas"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_navigation" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            app:itemIconTint="@color/bottom_navigation_item_color"
+            app:itemTextColor="@color/bottom_navigation_item_color"
+            app:menu="@menu/bottom_navigation_menu" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

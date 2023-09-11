@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771332599006",
+    "project_id": "fitpartner1-4627a",
+    "storage_bucket": "fitpartner1-4627a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771332599006:android:e92d0c147fa993a996a64f",
+        "android_client_info": {
+          "package_name": "com.example.fitpartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771332599006-tajk92b4d546qu6cu2ohspb002r2cjin.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANCmTDo3soTwz0fGhoo4Eb1cttm4g1KH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771332599006-tajk92b4d546qu6cu2ohspb002r2cjin.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

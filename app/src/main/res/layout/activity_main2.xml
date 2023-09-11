@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/regis"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regis"
+        android:text="@string/regis"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usn1"
+        android:layout_below="@+id/regis"
+        android:text="@string/username"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="50dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_username"
+        android:layout_below="@+id/usn1"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama1"
+        android:layout_below="@+id/edt_username"
+        android:text="@string/nama"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nama2"
+        android:layout_below="@+id/nama1"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_email"
+        android:layout_below="@+id/nama2"
+        android:text="@string/email"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email2"
+        android:layout_below="@+id/edt_email"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass1"
+        android:layout_below="@+id/email2"
+        android:text="@string/password"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="50dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_password"
+        android:layout_below="@+id/pass1"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_register"
+        android:layout_below="@+id/edt_password"
+        android:text="@string/daftarbtn"
+        android:textSize="20sp"
+        android:backgroundTint="@color/button"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/masuk"
+        android:layout_below="@+id/btn_register"
+        android:text="@string/masuk"
+        android:textSize="15sp"
+        android:layout_marginStart="50dp"/>
+
+</RelativeLayout>

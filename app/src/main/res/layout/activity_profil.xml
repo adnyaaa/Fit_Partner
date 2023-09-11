@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout"
+        tools:context=".DetailKelasActivity">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:id="@+id/profil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profil2" />
+
+            <TextView
+                android:id="@+id/wel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profil"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:gravity="center"
+                android:text="@string/wel"
+                android:textColor="@color/black"
+                android:textSize="27sp" />
+
+            <ImageView
+                android:id="@+id/pfp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wel"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/usr" />
+
+            <TextView
+                android:id="@+id/tv_data_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pfp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserratmedium"
+                android:gravity="center"
+                android:text="@string/nama"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_data_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_data_nama"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserratregular"
+                android:gravity="center"
+                android:text="@string/usn"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/role_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_data_username"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/montserratregular"
+                android:gravity="center"
+                android:text="@string/role"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/role_id"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="60dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/montserratmedium"
+                android:padding="10dp"
+                android:text="@string/editbtn"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/stp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit"
+                android:layout_marginTop="70dp"
+                android:src="@drawable/vector_green" />
+
+            <TextView
+                android:id="@+id/kelas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="@string/kelas"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                app:drawableStartCompat="@drawable/baseline_list_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/kelas"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"/>
+
+            <ImageView
+                android:id="@+id/stp2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler1"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/vector_green" />
+
+            <TextView
+                android:id="@+id/pendaftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stp2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="@string/pendaftar"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                app:drawableStartCompat="@drawable/baseline_group_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pendaftar"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"/>
+
+            <ImageView
+                android:id="@+id/stp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler2"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/vector_green" />
+
+            <TextView
+                android:id="@+id/kelas_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stp3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="@string/kelas_pt"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                app:drawableStartCompat="@drawable/baseline_list_24" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kelas_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"/>
+
+            <ImageView
+                android:id="@+id/stp4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recycler3"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/vector_green" />
+
+            <TextView
+                android:id="@+id/kelaspt_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stp4"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="120dp"
+                android:fontFamily="@font/montserratsemibold"
+                android:text="@string/ptbtn"
+                android:textColor="@color/black"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/daftar_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/kelaspt_id"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/montserratlight"
+                android:text="@string/teks"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/daftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daftar_desc"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="200dp"
+                android:backgroundTint="@color/button"
+                android:fontFamily="@font/montserratmedium"
+                android:padding="10dp"
+                android:text="@string/daftarbtn"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daftar"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginEnd="40dp"
+                android:backgroundTint="#808080"
+                android:fontFamily="@font/montserratmedium"
+                android:padding="10dp"
+                android:text="LOGOUT"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
